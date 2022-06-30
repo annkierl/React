@@ -68,3 +68,37 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+_______________________________________________________________________________
+TASK Description:
+
+
+Part 1 Inside the src / players.js file, put an array of players with 10 objects representing users - let them have the attributes: username of the string type and points of the number type (let them be integers).
+
+Export the players table by default from the file src / players.js using export default
+
+In the src / App.js file, import the table from pliu src / players.js
+
+Render the HTML table (
+
+) containing the Username and Points headers - in each line display the data of individual objects from the table imported from the src / players.js file
+Part 2 - summary
+Display an additional row at the bottom in the table, where in the column with the heading Points there will be a number that is the sum of all points scored by players. In the Username column in this row, let's say Total
+
+Below this line, add another line where we will analogically display the average of the points with the label Average
+
+Part 3 - Highlighting
+If you do not have any players with more than 100 points in src / players.js, add one or change the points for one of the existing ones.
+
+In the src / App.js file, modify the render method in such a way that lines with players with more than 100 points are highlighted (e.g. have a red background and white text)
+
+Part 4 - getting data from component state
+Create a state in the component and write information about the currently enabled highlight color, e.g. const [highlightingColor, setHighlightingColor] = useState ('red')
+
+Use this information instead of the color used in the previous task.
+
+Part 5 - interaction
+Add 2 buttons with the labels Red and Blue above the table.
+
+Make sure that clicking on each of these buttons changes the currently used color of highlighting the players in the table.

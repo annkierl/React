@@ -37,7 +37,7 @@ let players = [
     {
         id: 8,
         name: "Jan",
-        point: 100
+        point: 101
     },
     {
         id: 9,
